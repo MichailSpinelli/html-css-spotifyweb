@@ -3,42 +3,90 @@
     margin: 0px;
     border: 0;
     font-size: 100%;
+    box-sizing: border-box;
 }
-
-/*
-    GENERAL
-*/
-
-.main-left{
-    display: inline-block;
-}
-
-.main-right{
-    display: inline-block;
-}
-
-.logo-spotify{
-    width: 50px;
-}
-
-.logo-spotify > img{
-    width: 100%;
-}
-
-
-
-/*
-    MAIN
-*/
-
-/*
-    FOOTER
-*/
-
 
 /* Caso base: sopra i 1100px */
 @media only screen and (min-width: 1101px) {
-    /* Stili per il caso base */
+
+    /* MAIN LEFT */
+
+    .main-left{
+        display: inline-block;
+        width: 30%;
+        background-color: #000000;
+        color: white;
+    }
+
+    .logo-spotify{
+        width: 50px;
+    }
+    
+    .logo-spotify > img{
+        width: 100%;
+    }
+
+    /* MAIN RIGHT */
+
+    .main-right{
+        display: inline-block;
+        width: 60%;
+    }
+
+    /* top */
+
+    .right-top{
+        background-color: #080B12;
+        color: white;
+    }
+
+    /* bottom */
+
+    .right-bottom{
+        background-color: #141922;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .playlist{
+        flex: 1;
+    }
+
+    .img-play-1{
+        flex-basis: 100%;
+    }
+
+    .img-play-1 img{
+        width: 25%;
+        box-sizing: border-box;
+    }
+
+    
+    .img-play{
+        margin: 5px;
+    }
+
+    .img-play > img{
+       width: 100%;
+    }
+
+    
+
+
+
+
+
+
+    /* FOOTER */
+    
+    footer{
+        background-color: #282828;
+        color: white;
+    }
+
   }
   
   /* Primo breakpoint: fino a 1100px */
