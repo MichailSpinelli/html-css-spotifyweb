@@ -1,7 +1,39 @@
 *{
     padding: 0px;
     margin: 0px;
+    border: 0;
+    font-size: 100%;
 }
+
+/*
+    GENERAL
+*/
+
+.main-left{
+    display: inline-block;
+}
+
+.main-right{
+    display: inline-block;
+}
+
+.logo-spotify{
+    width: 50px;
+}
+
+.logo-spotify > img{
+    width: 100%;
+}
+
+
+
+/*
+    MAIN
+*/
+
+/*
+    FOOTER
+*/
 
 
 /* Caso base: sopra i 1100px */
