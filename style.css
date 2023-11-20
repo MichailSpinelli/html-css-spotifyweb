@@ -15,17 +15,23 @@ h2 {
 
     /* MAIN LEFT */
 
+    main{
+        display: flex;
+    }
+
     .main-left{
-        display: inline-block;
-        width: 30%;
+        width: 40%;
         background-color: #000000;
         color: white;   
+        padding: 80px;
+        height: 90vh;
+        overflow: hidden;
     }
 
     .logo-spotify{
-        width: 50px;
+
     }
-    
+
     .logo-spotify > img{
         width: 100%;
     }
@@ -33,9 +39,8 @@ h2 {
     /* MAIN RIGHT */
 
     .main-right{
-        display: inline-block;
-        margin-left: 30%;
-        overflow: scroll;
+        overflow-y: scroll;
+        height: 90vh;
     }
 
     /* top */
@@ -128,9 +133,34 @@ h2 {
     footer{
         background-color: #282828;
         color: white;
-       
+        height: 10vh;
     }
 
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .song-foot{
+        align-items: flex-start;
+    }
+
+    .song-foot-img > img{
+        width: 2%;
+    }
+
+    .reproduction-foot{
+        align-items: center;
+    }
+
+    .settings-foot{
+        align-items: flex-end;
+    }
+
+    .bar-reproduction{
+        display: flex;
+        justify-content: space-between;
+    }
   }
   
   /* Primo breakpoint: fino a 1100px */
