@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+h2 {
+    color: white;
+}
+
 /* Caso base: sopra i 1100px */
 @media only screen and (min-width: 1101px) {
 
@@ -15,7 +19,7 @@
         display: inline-block;
         width: 30%;
         background-color: #000000;
-        color: white;
+        color: white;   
     }
 
     .logo-spotify{
@@ -30,7 +34,8 @@
 
     .main-right{
         display: inline-block;
-        width: 60%;
+        margin-left: 30%;
+        overflow: scroll;
     }
 
     /* top */
@@ -38,46 +43,84 @@
     .right-top{
         background-color: #080B12;
         color: white;
+        padding: 30px;
+    }
+
+    .button-upgrade{
+        border: solid white;
+        background-color: #080B12;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 20px;
     }
 
     /* bottom */
 
+    .mode{
+        text-align: center;
+        padding: 10px 150px;
+        font-size: 0.6em;
+        color: #4A4E54;
+    }
+
     .right-bottom{
         background-color: #141922;
+        
+    }
+
+    .recently{
+        padding: 30px;
+    }
+
+    .create-for-you{
+        padding: 30px;
+    }
+
+    .popular-artist{
+        padding: 30px;
     }
 
     .cards{
         display: flex;
-        flex-wrap: wrap;
     }
 
     .playlist{
-        flex: 1;
+        width: calc(100% / 6);
+    }
+
+    .play-title{
+        color: white;
+    }
+
+    .play-artist{
+        color: #777A7E;
+    }
+
+    .img-play img{
+        width: 100%;
     }
 
     .img-play-1{
-        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
     }
 
-    .img-play-1 img{
-        width: 25%;
-        box-sizing: border-box;
+    .img-play-1 > img{
+        width: 50%;
     }
 
-    
-    .img-play{
-        margin: 5px;
+    .create-for-you > p{
+        color: #77797E;
+        font-size: 0.7em;
+        margin-bottom: 20px ;
     }
 
-    .img-play > img{
-       width: 100%;
+    .popular-artist > p{
+        color: #77797E;
+        font-size: 0.7em;
+        margin-bottom: 20px ;
     }
-
-    
-
-
-
-
 
 
     /* FOOTER */
@@ -85,6 +128,7 @@
     footer{
         background-color: #282828;
         color: white;
+       
     }
 
   }
