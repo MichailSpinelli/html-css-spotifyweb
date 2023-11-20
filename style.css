@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* Caso base: sopra i 1100px */
+@media only screen and (min-width: 1101px) {
+    /* Stili per il caso base */
+  }
+  
+  /* Primo breakpoint: fino a 1100px */
+  @media only screen and (max-width: 1100px) {
+    /* Stili per il primo breakpoint */
+  }
+  
+  /* Secondo breakpoint: fino a 700px */
+  @media only screen and (max-width: 700px) {
+    /* Stili per il secondo breakpoint */
+  }
+  
+  /* Terzo breakpoint: fino a 600px */
+  @media only screen and (max-width: 600px) {
+    /* Stili per il terzo breakpoint */
+  }
+  
